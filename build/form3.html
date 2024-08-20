@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Форма покупки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+  </head>
+  <body>
+    <div class="page-flex">
+      <div class="bg-menu"></div>
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__login"><a class="header__link" href="">Войти</a><span>/</span><a class="header__link" href="">Регистрация</a></div>
+            <button class="hamburger" type="button">
+              <div class="hamburger__button"><span></span><span></span><span></span></div>
+            </button>
+          </div>
+        </div>
+        <div class="header-popup"> 
+          <div class="header-popup__inner"> 
+            <div class="header-popup__close"> </div>
+            <div class="header-popup__subtitle">Меню:</div>
+            <div class="header-popup__list"> 
+              <ul>
+                <li><a href="">Правила акции</a></li>
+                <li><a href="">Победители</a></li>
+                <li><a href="">Призы</a></li>
+                <li><a href="">Войти</a></li>
+                <li><a href="">Регистрация</a></li>
+              </ul>
+            </div>
+            <div class="header-popup__subtitle">Телефон:</div>
+            <div class="header-popup__text"><a class="header__phone" href="tel:8 (383) 319-54-64">8 (383) 319-54-64</a></div>
+          </div>
+        </div>
+      </header>
+      <div class="intro">
+        <div class="intro__left"></div>
+        <div class="container">
+          <div class="intro__title">
+            <h1 class="h1">Ваши покупки</h1>
+          </div>
+        </div>
+        <div class="intro__right"></div>
+      </div>
+      <main class="main">
+        <div class="container"> 
+          <div class="section-sales">
+            <div class="sales">
+              <div class="sales__title">Ваши покупки</div>
+              <div class="sales__items">
+                <div class="sales__item"> 
+                  <div class="sales__number">#001</div>
+                  <div class="sales__bill">Чек № 123456789-11</div>
+                  <div class="sales__date">Дата: 10-07-2024</div>
+                  <div class="sales__name">Участвует в розыгрыше </div>
+                </div>
+                <div class="sales__item"> 
+                  <div class="sales__number">#002</div>
+                  <div class="sales__bill">Чек № 123456789-11</div>
+                  <div class="sales__date">Дата: 10-07-2024</div>
+                  <div class="sales__name">Участвует в розыгрыше </div>
+                </div>
+                <div class="sales__item"> 
+                  <div class="sales__number">#003</div>
+                  <div class="sales__bill">Чек № 123456789-11</div>
+                  <div class="sales__date">Дата: 10-07-2024</div>
+                  <div class="sales__name">Участвует в розыгрыше </div>
+                </div>
+                <div class="sales__item"> 
+                  <div class="sales__number">#004</div>
+                  <div class="sales__bill">Чек № 123456789-11</div>
+                  <div class="sales__date">Дата: 10-07-2024</div>
+                  <div class="sales__name">Участвует в розыгрыше </div>
+                </div>
+                <div class="sales__item"> 
+                  <div class="sales__number">#005</div>
+                  <div class="sales__bill">Чек № 123456789-11</div>
+                  <div class="sales__date">Дата: 10-07-2024</div>
+                  <div class="sales__name">Участвует в розыгрыше </div>
+                </div>
+              </div>
+              <div class="pagination"> 
+                <ul> 
+                  <li> <a href=""><</a></li>
+                  <li> <span>1</span></li>
+                  <li> <a href="">2</a></li>
+                  <li> <a href="">3</a></li>
+                  <li><a href="">...</a></li>
+                  <li><a href="">></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="add-sale">
+              <div class="add-sale__info">
+                <div class="add-sale__error">Чек уже зарегистрирован</div><a class="add-sale__link" href="">Попробовать заново</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__left"> <a class="footer__link" href="">Правила акции</a><a class="footer__link" href="">Победители</a><a class="footer__link" href="">Призы</a></div>
+            <div class="footer__right">Сроки проведения акции с 01.09.2023 г. по 31.12.2023 г. Призы могут отличаться от заявленных на изображении. Информацию об организаторе розыгрыша, о правилах его проведения, количестве призов или выигрышей, сроках, месте и порядке их получения уточняйте на сайте promo.heechang.ru.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./libs/js/jquery.min.js"></script>
+    <script src="./libs/js/jquery.maskedinput.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
